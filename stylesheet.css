@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Main Field 
+ */
+.bg{
+    padding: 30px;
+    background-color: #485461 ;
+}
+
+@font-face {
+    font-family: rock;
+    src: url("./rock-it/Rockit.ttf");
+}
+
+/* LOGO  */
+.logo{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    font-size: 40px;
+    font-family: rock;
+    color: white;
+    text-align: center;
+}
+
+/* Search bar  */
+.search{
+    width: 70%;
+    height: 50px;
+    /* background-color: red; */
+    margin-left: 15%;
+    display: inline-block;
+    font-size: 0;
+    padding-top: 50px;
+}
+
+.search-field{
+    height: 50px;
+    width: 90%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-indent: 30px;
+    display: inline-block;
+    vertical-align: top;
+    outline: none;
+    border: none;
+
+}
+
+.search-icon{
+    width: 50px;
+    height:46px ;
+    
+}
+
+.search-btn{
+    border: none;
+  
+}
+
+/* songs section  */
+
+.songs{
+   
+    width: 90%;
+    /* background: red; */
+    margin-top: 30px;
+    padding:30px 0;
+    margin-left: 4%;
+    
+}
+
+.song{
+    width: 20%;
+    padding: 20px 0;
+    background-color: white;
+    display: inline-block;
+    margin-left: 3%;
+    margin-bottom: 30px;
+    overflow: hidden;
+  
+}
+  
+.song-img1{
+    width: 80%;
+    height: 350px;
+    background: brown;
+    margin-left: 10%;
+    background-image: url("https://rukminim1.flixcart.com/image/416/416/jmz7csw0/poster/f/t/z/medium-wall-poster-michael-jackson-hd-quality-music-posters-original-imaf9rfa4nz3ewyz.jpeg?q=70");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+   
+}
+.song-img1:hover{
+    transform: scale(1.5);
+    transition: .4s;
+}
+.song-img2{
+    width: 80%;
+    height: 350px;
+    background: brown;
+    margin-left: 10%;
+    background-image: url("https://5.imimg.com/data5/XZ/VX/AO/SELLER-30220222/hollywood-singer-wall-posters-500x500.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   
+}
+.song-img2:hover{
+    transform: scale(1.5);
+    transition: .4s;
+}
+.song-img3{
+    width: 80%;
+    height: 350px;
+    background: brown;
+    margin-left: 10%;
+    background-image: url("https://i.pinimg.com/474x/94/64/cf/9464cf7babd64778d65642533deb607a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.song-img3:hover{
+    transform: scale(1.5);
+    transition: .4s;
+}
+
+
+.song-img4{
+    width: 80%;
+    height: 350px;
+    background: brown;
+    margin-left: 10%;
+    background-image: url("https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/abstract-guitar-michael-tompsett.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.song-img4:hover{
+    transform: scale(1.5);
+    transition: .4s;
+}
+
+.song-img5{
+    width: 80%;
+    height: 350px;
+    background: brown;
+    margin-left: 10%;
+    background-image: url("https://static.displate.com/857x1200/displate/2019-10-10/4f35926248f9b0eb1d4ff294617e24fe_02942fa8a6ad5b735fec2aee23d08471.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.song-img5:hover{
+    transform: scale(1.5);
+    transition: .4s;
+}
+
+.song-img6{
+    width: 80%;
+    height: 350px;
+    background: brown;
+    margin-left: 10%;
+    background-image: url("https://rukminim1.flixcart.com/image/416/416/k8ot7rk0/poster/8/b/8/large-arijit-singh-posters-for-room-office-home-hall-wall-original-imafqn4ur7ybfujd.jpeg?q=70");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.song-img6:hover{
+    transform: scale(1.5);
+    transition: .4s;
+}
+.song-img7{
+    width: 80%;
+    height: 350px;
+    background: brown;
+    margin-left: 10%;
+    background-image: url("https://static.displate.com/280x392/displate/2021-02-16/5db316a200b2c676b2fa026fad21c399_c37de07c9d946083968f0f75d211c2f9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.song-img7:hover{
+    transform: scale(1.5);
+    transition: .4s;
+}
+.song-img8{
+    width: 80%;
+    height: 350px;
+    background: brown;
+    margin-left: 10%;
+    background-image: url("https://cutewallpaper.org/21/dua-lipa-photoshoot/Dua-Lipa-Hungary-on-Twitter-Outtake-from-Dua-Lipas-single-.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+}
+.song-img8:hover{
+    transform: scale(1.5);
+    transition: .4s;
+}
+
+   
+
+
+
+.song-player{
+    width: 80%;
+    height: 100px;
+    /* background: yellow; */
+    /* margin-top: 20px; */
+    margin-left: 10%;
+ 
+   
+}
+
+.audio{
+    width: 100%;
+    height: 80px;
+}
+
+h2{
+    text-align: left;
+    /* padding-top: 20px; */
+    margin-top: 20px;
+    /* background: green; */
+    font-family: 'Poppins', sans-serif;
+    margin-left: 32px;
+    font-weight: 300;
+   
+}
